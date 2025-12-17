@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>비목별 서류 체크리스트</title>
+  <style>
+    :root { --bg:#f6f7fb; --card:#fff; --text:#111; --muted:#666; --line:#e6e8ef; --brand:#1a73e8; }
+    body { margin:0; font-family: system-ui, -apple-system, "Noto Sans KR", sans-serif; background:var(--bg); color:var(--text); }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 28px 18px 60px; }
+    a { color: var(--brand); text-decoration: none; }
+    .top { display:flex; align-items:center; justify-content:space-between; margin-bottom: 14px; }
+    h1 { font-size: 20px; margin:0; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius: 14px; padding: 16px; margin-top: 12px; }
+    h2 { font-size: 16px; margin:0 0 10px; }
+    ul { margin: 8px 0 0 18px; }
+    li { margin: 6px 0; }
+    .muted { color:var(--muted); font-size: 13px; line-height: 1.5; }
+    code { background:#f0f2f7; padding:2px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <h1>비목별 서류 체크리스트</h1>
+      <a href="index.html">메인으로</a>
+    </div>
+
+    <div class="card">
+      <h2>재료비</h2>
+      <p class="muted">결제 방식에 따라 제출 서류가 달라질 수 있습니다.</p>
+      <ul>
+        <li>카드 결제: 영수증, 거래명세서(해당 시), 품목 내역 확인 자료</li>
+        <li>세금계산서: 세금계산서, 거래명세서, 입금(이체) 증빙</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>외주용역비</h2>
+      <p class="muted">단계별로 제출 서류가 구분됩니다.</p>
+      <ul>
+        <li>계약 체결 단계: 계약서, 견적서, 사업자등록증, 통장사본(필요 시)</li>
+        <li>완료 단계: 결과물, 완료(검수) 확인 자료, 세금계산서, 지급 증빙</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>여비</h2>
+      <ul>
+        <li>출장 신청/보고(해당 시)</li>
+        <li>교통·숙박 등 증빙(해당 시)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>파일명 예시</h2>
+      <p class="muted">
+        <code>[팀명]_재료비_카드_영수증.jpg</code><br/>
+        <code>[팀명]_외주_계약체결_계약서.pdf</code><br/>
+        <code>[팀명]_외주_완료_세금계산서.pdf</code>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
